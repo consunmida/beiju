@@ -1,0 +1,97 @@
+@media screen and (max-width: 767px) {
+    body{height: auto;}
+    header{width:100%;height:44px;padding:6px 0px;position: fixed;top:0;left:0;z-index: 99;}
+    header .h1{float:left;height:29px;padding-left: 16px;}
+    header .h1 a{display:block;height:28px;font-size: 0;}
+    header .h1 img{height:28px;}
+    .btn_phoneMenu img{height: 20px;margin: 12px;}
+    .main{width: 100%;margin: 0 auto;padding: 0 10px;}
+    .title{padding: 30px 0;}
+    .title h2{font-size: 17px;line-height:20px;padding: 0 10px;}
+    .title p{font-size: 14px;padding: 0 10px;}
+    .typeList li{padding:0 6px !important;margin-bottom: 12px;}
+    .typeList .typeText{position: absolute;top:20px;left:20px;}
+    .typeText h3{margin: 0 0 10px 0;font-size: 14px;line-height: 16px;}
+    .typeText p{line-height: 20px;}
+    .timeLine li{height:60px;padding: 0 6px !important;margin-bottom: 10px;}
+    .timeLine li>div{padding: 15px;}
+    .timeLine li>div .year{font-size: 16px;line-height: 16px;}
+    .timeLine li>div .date{font-size: 14px;line-height: 14px;}
+    .timeLine li>div .imgWrap{line-height:30px;}
+    .timeLine li>div .name{width: 40%;line-height: 30px;}
+    .type .switch{height:46px;padding: 15px 0 15px;}
+    .caseList li .des{height: 50px;padding: 10px;}
+    .caseList li .des h3{font-size: 14px;line-height: 14px;margin-bottom: 4px;}
+    .caseList li .des p{font-size:12px;line-height: 12px;}
+    .caseList li .des .imgWrap{line-height: 30px;}
+    .case .switch{height:55px;padding: 10px;}
+    .case .switch div{top:10px;}
+    .programList li{padding: 0 5px !important;height: auto;margin-bottom: 10px;}
+    .programList li .imgWrap{height: auto;line-height:1;}
+    .programList li .imgWrap img{width: 100%;}
+    .companyList li{width: 33.333333%;height:102px;line-height: 102px;margin-bottom: 15px;}
+    .companyList li:nth-child(1n+1){padding:0 10px 0 0;}
+    .companyList li:nth-child(3n+2){padding:0 5px;}
+    .companyList li:nth-child(3n+3){padding:0 0 0 10px;}
+    .branchOffice ul li:nth-child(1){padding:0;}
+    footer p{padding:0 10px;}
+    footer p.xunchuan1{font-size: 15px;line-height: 17px;margin-top: 25px;}
+    .mHidden{display: none;}
+    .mShow{display: block;}
+
+    .sprite-clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .main{width: 100%;margin: 0 auto;padding: 0 10px;}
+    .title h2{font-size: 24px;line-height:24px;padding: 0 10px;}
+    .title p{font-size: 14px;padding: 0 10px;}
+    .typeList li{padding:0 6px !important;margin-bottom: 24px;}
+    .timeLine li{height:76px;padding:0 6px !important;margin-bottom: 10px;}
+    .programList li{padding: 0 10px !important;}
+
+    footer p{padding:0 10px;}
+    footer p.xunchuan1{line-height: 30px;}
+    .mHidden{display: none;}
+    .mShow{display: block;}
+    .sprite-clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .main{width: 100%;margin: 0 auto;padding: 0 10px;}
+    header nav li{width:77px;}
+
+    footer p{padding:0 10px;}
+    footer p.xunchuan1{line-height: 30px;}
+    .pHidden{display: none;}
+    .pShow{display: block;}
+    .sprite-clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+}
+@media screen and (min-width:1200px){
+
+    .pHidden{display: none;}
+    .pShow{display: block;}
+    .sprite-clear {
+        clear: initial;
+        display: none;
+    }
+}

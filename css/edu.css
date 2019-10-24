@@ -1,0 +1,102 @@
+/*--------------------banner--------------------*/
+.banner{width: 100%;height: 748px;background:url('../images/banking_banner.png') top center no-repeat;background-size: cover;}
+/*--------------------tab--------------------*/
+.tabList{width:100%;height: 59px;margin: 0;border-bottom: 1px solid #e5e5e5;}
+.tabList li{float: left;width:191px;height:59px;font-size: 16px;line-height:59px;cursor:pointer;text-align: center;}
+.tabList li a{color: #333;}
+.tabList li a:hover{text-decoration: none;}
+.tabList li a:link{text-decoration: none;}
+.tabList li a:active{text-decoration: none;}
+.tabList li.active a{color: #3ea6ff}
+.tabList li:last-child{margin-right:0}
+.tabList .main div{position: absolute;bottom:0;left:476px;width: 57px;height: 2px;background-color: #0979ec;}
+/*
+*2期
+.tabList{width:100%;height: 54px;position: relative;margin: 0 auto;}
+.tabList>div{padding: 0;}
+.tabList li{float: left;height:54px;font-size: 16px;line-height:54px;text-align:center;cursor:pointer;padding: 0;border-right: 1px solid #f6f6f6;}
+.tabList li a{color: #333;}
+.tabList li a:hover{text-decoration: none;}
+.tabList li a:link{text-decoration: none;}
+.tabList li a:active{text-decoration: none;}
+.tabList li.active a{color: #3ea6ff}
+.tabList li:last-child{margin-right:0}
+*/
+/*--------------------在线教育--------------------*/
+/*核心业务流程图*/
+.status{background-color:#fff;}
+.status h2{margin-bottom:49px;font-size: 24px;font-weight: bold;line-height: 84px;text-align: center;position: relative;margin-top: 0;}
+.status h2 p{width:60px;height:1px;background-color:#c2c2c2;position: absolute;bottom:0;left:50%;margin-left: -30px;margin-bottom: 0;}
+.status ul{overflow: hidden;width: 1220px;padding: 0 10px 70px;margin: 0 auto;}
+.status ul li {height: 260px;width: 20%;float: left;}
+.status ul li:nth-child(1){padding-right: 25.6px;}
+.status ul li:nth-child(2){padding-left: 6.4px;padding-right: 19.2px;}
+.status ul li:nth-child(3){padding-left: 12.8px;padding-right: 12.8px;}
+.status ul li:nth-child(4){padding-right: 6.4px;padding-left: 19.2px;}
+.status ul li:nth-child(5){padding-left: 25.6px;}
+.status_content{width: 100%;height: 100%;border: 1px solid rgba(225,225,225,0.3);background-color: #fff;text-align: center;
+    -webkit-box-shadow:0 5px 12px rgba(41, 44, 42, 0.1);
+    -moz-box-shadow:0 5px 12px rgba(41, 44, 42, 0.1);
+    box-shadow:0 5px 12px rgba(41, 44, 42, 0.1);
+}
+.status ul li p{font-size: 18px;line-height: 70px;margin-bottom: 7px;}
+.xun-aoProgram p{position: absolute;}
+.xun-aoProgram p:nth-child(2){font-size: 24px;left:50%;top:215px;margin-left: -72px;color: #fff;}
+.xun-aoProgram p:nth-child(3){font-size: 18px;left:57px;top:230px;}
+.xun-aoProgram p:nth-child(4){font-size: 18px;left:224px;top:394px;}
+.xun-aoProgram p:nth-child(5){font-size: 18px;left:431px;top:472px;}
+.xun-aoProgram p:nth-child(8){font-size: 18px;right:57px;top:230px;}
+.xun-aoProgram p:nth-child(7){font-size: 18px;right:224px;top:394px;}
+.xun-aoProgram p:nth-child(6){font-size: 18px;right:431px;top:472px;}
+
+
+
+
+
+
+
+
+
+
+
+/*成功案例*/
+.success_case{
+    background: #fff;
+    padding-bottom:0;
+}
+.success_case .content{
+    width:1200px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+}
+.success_case  .content p{
+    width:60px;
+    height:1px;
+    margin:0 auto;
+    background: #c2c2c2;
+}
+.success_case .content .title{
+    font-size:24px;
+    color:#333;
+    margin:0;
+    padding:30px 0 30px 0;
+}
+.success_case .content img{
+    margin-top:50px;
+}
+.success_case .content .case_btn{
+    position:absolute;
+    bottom:20px;
+    left:532px;
+    display:block;
+    width:136px;
+    height:136px;
+    padding-top:32px;
+    font-size:24px;
+    color:#fff;
+    text-align:center;
+    background: url(../images/success_bt.png) no-repeat;
+    background-size:100% 100%;
+    text-decoration: none;
+}

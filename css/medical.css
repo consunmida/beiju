@@ -1,0 +1,199 @@
+/*--------------------banner--------------------*/
+.banner{width: 100%;height: 748px;background:url('../images/medical_banner.png') top center no-repeat;background-size: cover;}
+/*--------------------tab--------------------*/
+.tabList{width:100%;height: 59px;margin: 0;border-bottom: 1px solid #e5e5e5;}
+.tabList li{float: left;width:191px;height:59px;font-size: 16px;line-height:59px;cursor:pointer;text-align: center;}
+.tabList li a{color: #333;}
+.tabList li a:hover{text-decoration: none;}
+.tabList li a:link{text-decoration: none;}
+.tabList li a:active{text-decoration: none;}
+.tabList li.active a{color: #3ea6ff}
+.tabList li:last-child{margin-right:0}
+.tabList .main div{position: absolute;bottom:0;left:561px;width: 57px;height: 2px;background-color: #0979ec;}
+/*
+*2期
+.tabList{width:100%;height: 54px;position: relative;margin: 0 auto;}
+.tabList>div{padding: 0;}
+.tabList li{float: left;height:54px;font-size: 16px;line-height:54px;text-align:center;cursor:pointer;padding: 0;border-right: 1px solid #f6f6f6;}
+.tabList li a{color: #333;}
+.tabList li a:hover{text-decoration: none;}
+.tabList li a:link{text-decoration: none;}
+.tabList li a:active{text-decoration: none;}
+.tabList li.active a{color: #3ea6ff}
+.tabList li:last-child{margin-right:0}
+*/
+/*--------------------智慧医疗--------------------*/
+/*宣传*/
+/*宣传语*/
+.publicity{overflow: hidden;padding-top: 57px;text-align: center;font-size: 0;}
+.publicity .main .publicity_name{margin: 0 0 8px;font-size: 24px;font-weight:bold;line-height: 24px;margin-bottom: 0;}
+.publicity .main .publicity_text{margin:23px 0;font-size:14px;line-height:31px;text-align: center;}
+.publicity .medical_status{padding: 0 7px;}
+.medical_status_title{width: 148px;height: 148px;margin: 0 auto;background: url("../images/medical_status_title.png") no-repeat;position: relative;}
+.medical_status_title p{height: 50px;width: 32px;color: #fff;font-size: 16px;line-height: 25px;position: absolute;top:50%;left:50%;margin-top: -25px;margin-left: -16px;}
+.medical_status>img{display: block;margin: -20px auto 0;position: relative;z-index: 9;}
+.medical_status ul{overflow: hidden;margin: 20px 0 0;padding-bottom: 70px;}
+.medical_status ul li{float: left;padding: 0 33px;height: 146px;position: relative;}
+.medical_status ul li img{width: 100%;height: 100%;border-radius: 10px;
+    -webkit-box-shadow:0 6px 21px rgba(41, 44, 42, 0.32);
+    -moz-box-shadow:0 6px 21px rgba(41, 44, 42, 0.32);
+    box-shadow:0 6px 21px rgba(41, 44, 42, 0.32);
+}
+.medical_status ul li div{position: absolute;top:20px;left: 43px;width: 5px;height: 16px;background: #fff;}
+.medical_status ul li p{position: absolute;top:14px;left: 58px;font-size: 18px;color: #fff;line-height: 30px;text-align: left;}
+/*方案架构*/
+.arch{width: 100%;height: 835px;background: url("../images/arch_bg.png") no-repeat;background-position:0 36px;}
+.arch .main{height: 100%;padding:0 40px;}
+.arch_box{width: 100%;height: 739px;background-color: #fff;
+    -webkit-box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+    -moz-box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+    box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+}
+h3.arch_title{width: 100%;height: 100px;background-color: #fff;font-size: 24px;line-height: 14px;padding-top:36px;font-weight: bold;text-align: center;margin: 0;}
+.arch_content{width: 100%;height: 639px;background-color: #f4f4f4;padding: 40px 0;}
+.arch_content .app_list{padding:0 15px 20px;overflow: hidden;margin: 0;}
+.app_list li{padding: 0 25px;height: 70px;float: left;}
+.app_list li p{width: 100%;height: 100%;background: #fff;font-size: 18px;line-height: 70px;text-align: center;;
+    -webkit-box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+    box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+}
+.datas{margin: 0 auto;text-align: center;height: 179px;}
+.datas p{font-size: 24px;margin-top: -96px;color: #5f8bfb;}
+.address_list{padding:0 25px 40px;overflow: hidden;margin: 0;}
+.address_list>li{padding: 0 15px;height: 100px;float: left;}
+.address_mes{width: 100%;height: 100%;background: #fff;padding: 20px;
+    -webkit-box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+    box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+}
+.address_mes h4 p{width: 5px;height: 16px;background-color: #3296e6;float: left;margin-right: 9px;font-size: 18px;line-height: 18px;}
+.address_mes ul{overflow: hidden;}
+.address_mes ul li{padding: 10px 15px;margin-right: 10px;float: left;}
+.address_mes ul li:last-child{margin-right: 0;}
+.arch_content .icon_list{padding:0 15px 20px;overflow: hidden;margin: 0;}
+.icon_list li{padding: 0 25px;height: 148px;float: left;}
+.icon_list li p{width: 100%;height: 100%;background: #fff;padding-top:30px;text-align: center;
+    -webkit-box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+    box-shadow:0 5px 13px rgba(0, 0, 0, 0.14);
+}
+.icon_list li p img{height:86px;}
+/*核心业务流程图*/
+.lines{background-color:#f4f4f4;}
+.lines h2{margin-bottom:42px;font-size: 24px;font-weight: bold;line-height: 84px;text-align: center;position: relative;}
+.lines h2 p{width:60px;height:1px;background-color:#c2c2c2;position: absolute;bottom:0;left:50%;margin-left: -30px;}
+.lines ul{width: 1200px;overflow: hidden;margin: 0 auto;padding-bottom: 140px;}
+.lines ul li{height: 506px;}
+.lines ul li:first-child{padding-right: 20px;padding-left: 0;}
+.lines ul li:last-child{padding-left: 20px;padding-right: 0;}
+.lines ul li h3{height:73px;background-color: #fff;position: relative;border-bottom: 1px solid #e2e2e2;margin: 0;
+    -webkit-box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+    -moz-box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+    box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+}
+.lines ul li h3 p{float: left;width:50%;height:100%;font-size: 24px;font-weight: bold;line-height: 73px;text-align: center;}
+.lines ul li h3 span{display:block;width:1px;height:100%;position: absolute;top:0;left:50%;background-color: #e2e2e2;}
+.lines_content{height:432px;background-color: #fff;position: relative;
+    -webkit-box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+    -moz-box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+    box-shadow:0 20px 57px rgba(20, 97, 182, 0.32);
+}
+.lines_content span{display:block;width:1px;height:100%;position: absolute;top:0;left:50%;background-color: #e2e2e2;z-index: 100;}
+.lines_content img{width: 100%;height: 100%;position: relative;z-index: 99;}
+.lines_content p{
+    position:absolute;
+    font-size:14px;
+    color:#333;
+    z-index:101;
+}
+.lines_content .lines_text{
+    left:70px;
+    top:115px;
+}
+.lines_content .lines_text1{
+    left:169px;
+    top:194px;
+}
+.lines_content .lines_text2{
+    left:42px;
+    top:275px;
+}
+.lines_content .lines_text3{
+    left:156px;
+    top:355px;
+}
+.lines_content .lines_text4{
+    left:378px;
+    top:115px;
+}
+.lines_content .lines_text5{
+    left:393px;
+    top:239px;
+}
+.lines_content .lines_text6{
+    left:393px;
+    top:395px;
+}
+.lines_content .lines_text7{
+    right:410px;
+    top:115px;
+}
+.lines_content .lines_text8{
+    right:410px;
+    top:248px;
+}
+.lines_content .lines_text9{
+    right:410px;
+    top:381px;
+}
+.lines_content .lines_text10{
+    right:104px;
+    top:115px;
+}
+.lines_content .lines_text11{
+    right:117px;
+    top:381px;
+}
+
+/*成功案例*/
+.success_case{
+    background: #fff;
+    padding-bottom:0;
+}
+.success_case .content{
+    width:1200px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+}
+.success_case  .content p{
+    width:60px;
+    height:1px;
+    margin:0 auto;
+    background: #c2c2c2;
+}
+.success_case .content .title{
+    font-size:24px;
+    color:#333;
+    margin:0;
+    padding:30px 0 30px 0;
+}
+.success_case .content img{
+    margin-top:50px;
+}
+.success_case .content .case_btn{
+    position:absolute;
+    bottom:20px;
+    left:532px;
+    display:block;
+    width:136px;
+    height:136px;
+    padding-top:32px;
+    font-size:24px;
+    color:#fff;
+    text-align:center;
+    background: url(../images/success_bt.png) no-repeat;
+    background-size:100% 100%;
+    text-decoration: none;
+}

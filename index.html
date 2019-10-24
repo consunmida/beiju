@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/><!–uc强制竖屏–>
+    <meta name="x5-orientation" content="portrait"><!–QQ强制竖屏–>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=1.0">
+    <title>北桔</title>
+    <meta name="Keywords" content="app开发，微信开发，网站开发，IOS（苹果）开发,Android（安卓）开发，html5开发，软件外包，移动应用开发"/>
+    <meta name="Description" content="上海迅傲成立2008年，专注于互联网和移动互联的技术外包服务，提供微信平台开发外包，移动应用app开发外包（含ios和安卓），网站定制外包。"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+</head>
+<body>
+<!--header-->
+    <header>
+        <h1 class="h1"><a href="index.html" title="上海迅傲信息科技股份有限公司"><img src="images/xun-ao.png" alt="上海迅傲信息科技股份有限公司"/></a></h1>
+        <a class="tel color_fff mHidden" href="tel:400-775-3259"><img src="images/header_icon.png" alt="迅傲科技服务热线"/>400-775-3259</a>
+        <nav class="mHidden">
+            <ul>
+                <li class="menu-caret active">
+                    <a class="color_fff" href="index.html">首页</a> <i class="caret"></i>
+                    <div class="dropDown">
+                            <ul class="center">
+                                <li class="dropDown-menu">
+                                    <h4>商城系统</h4>
+                                    <div class="menuLink">
+                                        <div>
+                                            <a href="http://www.jumeiling.com/B2B2C/index.html">多用户商城系统（B2B2C）</a>
+                                            <a href="http://www.jumeiling.com/XCX/index.html">小程序商城</a>
+                                            <a href="http://www.jumeiling.com/WSC/index.html">微信商城</a>
+                                        </div>
+                                        <div>
+                                            <a href="http://www.jumeiling.com/O2O/index.html">线上线下一体化（O2O）电商系统</a>							</div>
+                                    </div>
+                                </li>
+                                <li class="dropDown-menu">
+                                    <h4>智能化电商平台系统</h4>
+                                    <div class="menuLink">
+                                        <a href="http://www.jumeiling.com/tec/retail.html">新零售电商系统</a>
+                                        <a href="http://www.jumeiling.com/tec/mirror.html">魔镜穿衣系统</a>
+                                        <a href="http://www.jumeiling.com/tec/face.html">人脸识别系统</a>
+                                    </div>
+                                </li>
+                                <li class="dropDown-menu">
+                                    <h4>特色服务</h4>
+                                    <div class="menuLink">
+                                        <a href="http://www.jumeiling.com/tec/set.html">定制化项目开发</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="menu-caret"><a class="color_fff" href="case.html">案例</a></li>
+                <li class="menu-caret"><a class="color_fff" href="service.html">服务</a></li>
+                <li class="menu-caret"><a class="color_fff" href="banking.html">方案</a></li>
+                <li class="menu-caret"><a class="color_fff" href="introduce.html">关于</a></li>
+            </ul>
+        </nav>
+        <div class="btn_phoneMenu mShow pHidden">
+            <img src="images/menu_phone.png"/>
+        </div>
+    </header>
+    <nav class="phoneMenu mShow pHidden">
+        <ul class="menu_link">
+            <li class="active"><a class="color_fff" href="index.html">首页</a> <i class="caret"></i></li>
+            <li><a class="color_fff" href="case.html">案例</a></li>
+            <li><a class="color_fff" href="service.html">服务</a></li>
+            <li><a class="color_fff" href="banking.html">方案</a></li>
+            <li><a class="color_fff" href="introduce.html">关于</a></li>
+        </ul>
+    </nav>
+    <!--banner-->
+    <div class="banner">
+        <ul class="bannerList">
+            <li><a href=""></a></li>
+            <li style="background:url('images/banner.jpg') top center no-repeat;background-size: cover;"><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+        <ul class="imgList" style="display: none;">
+            <li style="background:url('images/banner.jpg') top center no-repeat;background-size: cover;"></li>
+            <li style="background:url('images/banner1.jpg') top center no-repeat;background-size: cover;"></li>
+            <li style="background:url('images/banner3.jpg') top center no-repeat;background-size: cover;"></li>
+            <li style="background:url('images/banner4.jpg') top center no-repeat;background-size: cover;"></li>
+        </ul>
+        <ol></ol>
+    </div>
+    <!--type-->
+    <!-- <div class="type">
+        <div class="title">
+            <h2>我们不断的将天马行空转变为商业价值</h2>
+            <p class="color_666"><img class="mHidden" src="images/line.png" alt="我们不断的将天马行空转变为商业价值"/>善于将洞察转化为可实施的流程和方法，从而给用户带来全新体验<img class="mHidden" src="images/line.png" alt="我们不断的将天马行空转变为商业价值"/></p>
+        </div>
+        <div class="main">
+            <ul class="typeList">
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" style="padding:0 18px 0 0;">
+                    <img class="one" src="images/type1.png" alt="产品体验设计"/>
+                    <div class="typeText">
+                        <h3 class="color_fff">产品体验设计</h3>
+                        <p class="color_fff font12">PRODUCT<br/>EXPERIENCE<br/>DESIGN</p>
+                    </div>
+                    <div class="type1">
+                        <img src="images/type1_animate.png" alt="产品体验设计"/>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" style="padding:0 12px 0 6px;">
+                    <img class="two" src="images/type2.png" alt="移动端APP开发"/>
+                    <div class="typeText" style="left: 36px;">
+                        <h3 class="color_fff">移动端APP开发</h3>
+                        <p class="color_fff font12">MOBILE<br/>LICATION<br/>DEVELOPMENT</p>
+                    </div>
+                    <div class="type2_wrap">
+                        <div class="type2">
+                            <img class="center" src="images/center.png" alt="移动端APP开发"/>
+                            <img class="fans1" src="images/fans1.png" alt="移动端APP开发"/>
+                            <img class="fans2" src="images/fans2.png" alt="移动端APP开发"/>
+                            <img class="fans3" src="images/fans3.png" alt="移动端APP开发"/>
+                            <img class="fans4" src="images/fans4.png" alt="移动端APP开发"/>
+                            <img class="fans5" src="images/fans5.png" alt="移动端APP开发"/>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" style="padding:0 6px 0 12px">
+                    <img class="three" src="images/type3.png" alt="微信H5开发"/>
+                    <div class="typeText" style="left: 42px;">
+                        <h3 class="color_fff">微信H5开发</h3>
+                        <p class="color_fff font12">HTML5<br/>DEVELOPMENT</p>
+                    </div>
+                    <div class="type3_wrap">
+                        <div class="type3">
+                            <div class="circle1">
+                                <img src="images/circle1.png" alt="微信H5开发"/>
+                            </div>
+                            <div class="circle2">
+                                <img src="images/circle21.png" alt="微信H5开发"/>
+                                <img src="images/circle22.png" alt="微信H5开发"/>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6" style="padding:0 0 0 18px;">
+                    <img class="four" src="images/type4.png" alt="技术研发"/>
+                    <div class="typeText" style="left: 48px;">
+                        <h3 class="color_fff">技术研发</h3>
+                        <p class="color_fff font12">R & D</p>
+                    </div>
+                    <div class="type4">
+                        <img src="images/slider.png" alt="技术研发"/>
+                    </div>
+                </li>
+                <li style="clear: both;margin: 0;"></li>
+            </ul>
+
+            <div class="timeLine_container">
+                    <ul class="timeLine">
+                    <li>
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                    <l style="margin-bottom: 0;">
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                    
+                    <li style="margin-bottom: 0;">
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                        <li class="" style="margin-bottom: 0;">
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                        <li class="" style="margin-bottom: 0;">
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                        <li class="" style="margin-bottom: 0;">
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                        <li class="" style="margin-bottom: 0;">
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                        <li class="" style="margin-bottom: 0;">
+                        <div>
+                            <div class="time">
+                                <p class="year">2017</p>
+                                <p class="date">05.13</p>
+                            </div>
+                            <p class="imgWrap"><img src="  images/news.png" alt="倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质"/></p>
+                            <p class="name color_666">倡导人文科技的理念，理解设计和技术的本质倡导人文科技的理念，理解设计和技术的本质</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="switch">
+                <p class="col-lg-6 col-md-6 col-sm-6 col-xs-6 prev" style="padding: 0 12px 0 0;"><img style="float: right;" src="images/left.png" alt=""></p>
+                <p class="col-lg-6 col-md-6 col-sm-6 col-xs-6 next" style="padding: 0 0 0 12px;"><img style="float: left;" src="images/right.png" alt=""></p>
+            </div>
+        </div>
+        </div> -->
+    <!-- 服务简介 -->
+    <div class="ai-eachcont con-wite" id="index_serve" nav_index="1">
+        <section class="business active">
+            <div class="box">
+                <div class="ecpadding_1 txa_c">
+                    <h2 class="title-big">我们做什么？</h2>
+                    <h3 class="title-small">助力企业互联网+战略转型。<br class="br-3">让产品的设计研发和互联网技术完美结合，<br class="br-4">创造极具特色、有价值的用户体验产品。</h3>
+                </div>
+                <ul class="items list-inline service-ul">
+                    <li class="app">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
+                        <i>
+                        </i>
+                        <strong>移动APP/应用软件开发</strong>
+                        <p>基于 iOS / Android 应用开发
+                            <br>布局移动互联网</p></li>
+                    <li class="sys">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
+                        <i>
+                        </i>
+                        <strong>微信公众号/小程序开发</strong>
+                        <p>微信生态 全新体验
+                            <br>轻松迈向小程序时代</p></li>
+                    <li class="pc">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
+                        <i>
+                        </i>
+                        <strong>功能性系统/网站开发</strong>
+                        <p>高端定制网站系统
+                            <br>助力企业战略转型成功</p></li>
+                    <div class="case-sprit-line sprite-clear">&nbsp;</div>
+                    <li class="mobi">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
+                        <i>
+                        </i>
+                        <strong>智能硬件/物联网开发</strong>
+                        <p>物联网应用开发 / 软硬件产品研发
+                            <br>掌控智能终端时代</p></li>
+                    <li class="host">
+                        <u class="cl"></u>
+                        <u class="cr"></u>
+                        <i>
+                        </i>
+                        <strong>技术服务/战略合作</strong>
+                        <p>以专业的视角为企业提供技术运维服务和企业战略咨询
+                            <br>强大的本地化部署和基础设施管理体系</p></li>
+                </ul>
+                <!-- <label></label> -->
+            </div>
+        </section>
+        <div class="con_rank_title reflow_cont">
+            <h3 style="color:#333;">优秀的项目是这样出来的</h3>
+            <h5>优化产品流程，增强产品的易用性，提高使用者的工作效率，科学地组织生产。</h5>
+        </div>
+        <div class="flow-case-con six_row_sprit pad_tb_42 reflow_cont">
+            <div class="sprows">
+                <div class="txa_c spricon">
+                    <div class="circle-icon circle-icon-2 ci-4"></div>
+                </div>
+                <div class="txa_c sprdetal">
+                    <div class="trdcon">
+                        <h2 class="title-medium trd-title">需求沟通</h2>
+                        <div class="trd-detal">
+                            <p>倾听客户需求，了解用户使用环境和操作流程</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sprows">
+                <div class="txa_c spricon">
+                    <div class="circle-icon circle-icon-2 ci-1"></div>
+                </div>
+                <div class="txa_c sprdetal">
+                    <div class="trdcon">
+                        <h2 class="title-medium trd-title">交互设计</h2>
+                        <div class="trd-detal">
+                            <p>头脑风景交互情景模拟，原型设计</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sprows">
+                <div class="txa_c spricon">
+                    <div class="circle-icon circle-icon-2 ci-5"></div>
+                </div>
+                <div class="txa_c sprdetal">
+                    <div class="trdcon">
+                        <h2 class="title-medium trd-title">视觉创意</h2>
+                        <div class="trd-detal">
+                            <p>色彩及平面元素设定，结构和布局规范确认</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="case-sprit-line sprite-clear">&nbsp;</div>
+            <div class="sprows">
+                <div class="txa_c spricon">
+                    <div class="circle-icon circle-icon-2 ci-6"></div>
+                </div>
+                <div class="txa_c sprdetal">
+                    <div class="trdcon">
+                        <h2 class="title-medium trd-title">前端制作</h2>
+                        <div class="trd-detal">
+                            <p>HTML5、IOS、Android实现页面的动态展示</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sprows">
+                <div class="txa_c spricon">
+                    <div class="circle-icon circle-icon-2 ci-7"></div>
+                </div>
+                <div class="txa_c sprdetal">
+                    <div class="trdcon">
+                        <h2 class="title-medium trd-title">技术开发</h2>
+                        <div class="trd-detal">
+                            <p>移动应用数据对接与开发</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sprows">
+                <div class="txa_c spricon">
+                    <div class="circle-icon circle-icon-2 ci-8"></div>
+                </div>
+                <div class="txa_c sprdetal">
+                    <div class="trdcon">
+                        <h2 class="title-medium trd-title">测试反馈</h2>
+                        <div class="trd-detal">
+                            <p>修改调整，规范完善</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+        <!--case-->
+    <div class="case">
+            <div class="title">
+                <h2>将设计与开发诠释的最为均衡的互联网<sup>+</sup>缔造者</h2>
+                <p class="color_666"><img class="mHidden" src="images/line.png" alt=""/>倡导人文科技的理念，理解设计和技术的本质，为客户创造更好的产业未来<img class="mHidden" src="images/line.png" alt=""/></p>
+            </div>
+            <ul class="caseList">
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/JLY.png" alt="迅傲科技经典案例-监理云"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">监理云</h3>
+                            <p class="font14">线下工程监理，线上管理流程，提高苏科建设工程监理质量</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-监理云"/></div>
+                    </div>
+                     <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/DZB.png" alt="迅傲科技经典案例-电桩宝"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">电桩宝</h3>
+                            <p class="font14">能源科技与移动互联网的结合，曾经的幻想，现实的呈现</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-电桩宝"/></div>
+                    </div>
+                    <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/TY.png" alt="迅傲科技经典案例-腾云管家"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">腾云管家</h3>
+                            <p class="font14">打开传统医疗的大门，植入智慧医疗的理念，连接医患的桥梁</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-腾云管家"/></div>
+                    </div>
+                    <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/xinyi.jpg" alt="迅傲科技经典案例-老铁电商"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">信易闪借</h3>
+                            <p class="font14">小额贷款的行业领跑者</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-老铁电商"/></div>
+                    </div>
+                    <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/FQDDP.png" alt="迅傲科技经典案例-番茄对对碰"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">番茄对对碰</h3>
+                            <p class="font14">想当最强大脑？这个小游戏助你成为记忆大师</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-番茄对对碰"/></div>
+                    </div>
+                    <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/LT.png" alt="迅傲科技经典案例-野狼资产"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">老铁电商</h3>
+                            <p class="font14">冰冷的商品与火热的直播，擦出新兴直播电商的火花</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-野狼资产"/></div>
+                    </div>
+                     <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/SHOKI.png" alt="迅傲科技经典案例-SHOWKI"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">SHOWKI</h3>
+                            <p class="font14">以社交与习惯养成为切入点，提升用户黏度，为众筹服务</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-SHOWKI"/></div>
+                    </div>
+                     <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+                <li class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="img_box">
+                        <img src="images/ZHBX.png" alt="迅傲科技经典案例-中宏保险"/>
+                    </div>
+                    <div class="des">
+                        <div style="float: left;width: 85%;">
+                            <h3 class="font18">中宏保险</h3>
+                            <p class="font14">基于IWATCH运动，旨在全民健身，养成锻炼习惯</p>
+                        </div>
+                        <div class="imgWrap"><img src="images/typeMore.png" alt="迅傲科技经典案例-中宏保险"/></div>
+                    </div>
+                    <div class="hover">
+                        <a href="">暂无上传</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="switch">
+                <div class="left"></div>
+                <div class="list"></div>
+                <div class="right"></div>
+            </div>
+        </div>
+    <!--program-->
+    <div class="program">
+        <div class="title">
+            <h2>创新的商业模式，最前沿的互联网解决方案</h2>
+            <p class="color_666"><img class="mHidden" src="images/line.png" alt=""/>以超越客户预期为目标，从体验方案，到技术支持，一站式为客户服务<img class="mHidden" src="images/line.png" alt=""/></p>
+        </div>
+        <div class="main">
+            <ul class="programList">
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 44px 0 0;">
+                    <div class="imgWrap">
+                        <img src="images/program1.png" alt="直播电商"/>
+                    </div>
+                    <div class="des">
+                        <h3>移动电商</h3>
+                        <p class="font14">一次点击，一份信任，不论国界，跨越距离，紧随时代脚步，成熟的电商方案，创新的电商模式</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 16px">
+                    <div class="imgWrap">
+                        <img src="images/program2.png" alt="大数据可视化"/>
+                    </div>
+                    <div class="des">
+                        <h3>大数据可视化</h3>
+                        <p class="font14">灵活的数据可视化框架，多维度的表现形式，具象化用户习惯，提升用户操作体验</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 0 0 44px">
+                    <div class="imgWrap">
+                        <img src="images/program3.png" alt="AR新视界"/>
+                    </div>
+                    <div class="des">
+                        <h3>AR新视界</h3>
+                        <p class="font14">平面、影音和动画的和谐统一，真实场景和虚拟场景的实时互动，加强品牌传播的互动性和体验感</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 44px 0 0;">
+                    <div class="imgWrap">
+                        <img src="images/program4.png" alt="移动金融"/>
+                    </div>
+                    <div class="des">
+                        <h3>移动金融</h3>
+                        <p class="font14">以安全、便捷为核心，精准定制理财、贷款、股票等不同业务的商业模式</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 16px">
+                    <div class="imgWrap">
+                        <img src="images/program5.png" alt="智慧农业"/>
+                    </div>
+                    <div class="des">
+                        <h3>智慧农业</h3>
+                        <p class="font14">集移动互联网、云计算、物联网等技术于一体，实现农业可视化远程监控，从生产到销售一站式服务</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 0 0 44px">
+                    <div class="imgWrap">
+                        <img src="images/program6.png" alt="人工智能"/>
+                    </div>
+                    <div class="des">
+                        <h3>人工智能</h3>
+                        <p class="font14">智能设备、智能家居，我们一直在探索高端领域的解决方案，尖端科技，迅傲领航</p>
+                    </div>
+                </li>
+            </ul>
+            <!--<ul class="programList mShow pHidden">
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 44px 0 0;">
+                    <div class="imgWrap">
+                        <img src="images/mprogram1.png" alt="直播电商"/>
+                    </div>
+                    <div class="des">
+                        <h3>直播电商</h3>
+                        <p class="font14">迅傲科技从便捷、安全等方面，将PC端金融完美融入移动 端，并为客户提供各种可靠的商业模式</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 16px">
+                    <div class="imgWrap">
+                        <img src="images/mprogram2.png" alt="大数据可视化"/>
+                    </div>
+                    <div class="des">
+                        <h3>大数据可视化</h3>
+                        <p class="font14">大数据的分析成了重中之重，传统数据的呈现形式已经无法 满足“大数据”的时代需求...</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 0 0 44px">
+                    <div class="imgWrap">
+                        <img src="images/mprogram3.png" alt="AR新视界"/>
+                    </div>
+                    <div class="des">
+                        <h3>AR新视界</h3>
+                        <p class="font14">虚拟现实技术是一种可以创建和体验虚拟世界的计算机仿真 系统...</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 44px 0 0;">
+                    <div class="imgWrap">
+                        <img src="images/mprogram4.png" alt="移动金融"/>
+                    </div>
+                    <div class="des">
+                        <h3>移动金融</h3>
+                        <p class="font14">迅傲科技从便捷、安全等方面，将PC端金融完美融入移动 端，并为客户提供各种可靠的商业模式</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 16px">
+                    <div class="imgWrap">
+                        <img src="images/mprogram5.png" alt="智慧农业"/>
+                    </div>
+                    <div class="des">
+                        <h3>智慧农业</h3>
+                        <p class="font14">所谓“智慧农业”就是充分应用现代信息技术成果，集成应用 计算机与网络技术...</p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-6 col-xs-6" style="padding: 0 0 0 44px">
+                    <div class="imgWrap">
+                        <img src="images/mprogram6.png" alt="人工智能"/>
+                    </div>
+                    <div class="des">
+                        <h3>人工智能</h3>
+                        <p class="font14">生活中离不开许多环节，例如吃喝玩乐、美容美发等，还有 如碎片时间看看新闻...</p>
+                    </div>
+                </li>
+            </ul>-->
+        </div>
+    </div>
+    <!--company-->
+    <div class="company">
+        <div class="main">
+            <div class="title">
+                <h2>下一个十年，迅傲与您一起创造互联网<sup>+</sup>新视界</h2>
+                <p class="color_666"><img class="mHidden" src="images/line.png" alt=""/>10大行业解决方案，帮您轻松迈入新时代<img class="mHidden" src="images/line.png" alt=""/></p>
+            </div>
+            <ul class="companyList">
+                <li><div><img src="images/company1.png" alt="上海东方传媒集团有限公司"/></div></li>
+                <li><div><img src="images/company2.png" alt="中国电信"/></div></li>
+                <li><div><img src="images/company3.png" alt="万科"/></div></li>
+                <li><div><img src="images/company4.png" alt="携程旅行"/></div></li>
+                <li><div><img src="images/company5.png" alt="复旦大学"/></div></li>
+                <li><div><img src="images/company6.png" alt="上海交通大学"/></div></li>
+                <li><div><img src="images/company7.png" alt="海通期货"/></div></li>
+                <li><div><img src="images/company8.png" alt="长海医院"/></div></li>
+                <li><div><img src="images/company9.png" alt="太平洋保险"/></div></li>
+                <li><div><img src="images/company10.png" alt="上海仪电"/></div></li>
+                <li><div><img src="images/company11.png" alt="奔驰"/></div></li>
+                <li><div><img src="images/company12.png" alt="百事通"/></div></li>
+                <li><div><img src="images/company13.png" alt="东方CJ"/></div></li>
+                <li><div><img src="images/company14.png" alt="钛镀"/></div></li>
+                <li><div><img src="images/company15.png" alt="Forbes"/></div></li>
+            </ul>
+        </div>
+    </div>
+    <!--分公司-->
+    <div class="branchOffice">
+        <div class="main">
+            <ul>
+                <li class="col-lg-4 col-md-4 col-sm-12 col-sm-12">
+                    <div>
+                        <h3>上海</h3>
+                        <img src="images/shanghai.png" alt="迅傲科技-上海总公司">
+                        <p class="font14">地址：上海市闵行区泰虹路268弄t3号楼601～602室</p>
+                        <p class="font14">联系电话：400 - 775-3259</p>
+                        <p class="font14"><a href="mailto:MARKETING@XUN-AO.COM">邮箱地址：MARKETING@XUN-AO.COM</a></p>
+                    </div>
+
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-12 col-sm-12 mHidden">
+                    <div>
+                        <h3>合肥</h3>
+                        <img src="images/hefei.png" alt="迅傲科技-合肥分公司">
+                        <p class="font14">地址：合肥市包河区马鞍山路绿地赢海国际D座1714</p>
+                        <p class="font14">联系电话：400 - 775-3259</p>
+                        <p class="font14"><a href="mailto:MARKETING@XUN-AO.COM">邮箱地址：MARKETING@XUN-AO.COM</a></p>
+                    </div>
+                </li>
+                <li class="col-lg-4 col-md-4 col-sm-12 col-sm-12 mHidden">
+                    <div>
+                        <h3>西安</h3>
+                        <img src="images/xian.png" alt="迅傲科技-西安分公司">
+                        <p class="font14">地址：西安市雁塔区光华路二十所</p>
+                        <p class="font14">联系电话：400 - 775-3259</p>
+                        <p class="font14"><a href="mailto:MARKETING@XUN-AO.COM">邮箱地址：MARKETING@XUN-AO.COM</a></p>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--footer-->
+    <footer>
+        <div class="main">
+            <div class="links">
+                <ul>
+                    <li><a class="font14" href="" title="品牌合作">品牌合作</a></li>
+                    <li><a class="font14" href="" title="联系我们">联系我们</a></li>
+                    <li><a class="font14" href="" title="人才招聘">人才招聘</a></li>
+                    <li><a class="font14" href="" title="关于迅傲">关于迅傲</a></li>
+                    <li><a class="font14" href="" title="荣誉资质">荣誉资质</a></li>
+                </ul>
+                <a href="tel:400-775-3259">咨询热线：400-775-3259</a>
+            </div>
+            <div class="copyright">
+                <p class="font14">沪ICP备08010768号  © 2008-2017 Xun-ao.com All rights reserved.</p>
+                <img src="images/country.png" alt=""/>
+                <p>沪公网安备 33010602000750号</p>
+            </div>
+
+        </div>
+    </footer>
+    <aside class="mHidden">
+        <ul>
+            <li>
+                <a href="" title="QQ咨询">
+                    <span class="color_fff">热线咨询</span><div class="imgWrap"><img src="images/qq.png" alt="QQ咨询"></div>
+                </a>
+            </li>
+            <li>
+                <a href="" title="售后服务">
+                    <span class="color_fff">售后服务</span><div class="imgWrap"><img src="images/listen.png" alt="售后服务"></div>
+                </a>
+            </li>
+            <li>
+                <a href="" title="服务热线">
+                    <span class="color_fff">400-775-3259</span><div class="imgWrap"><img src="images/tel.png" alt="服务热线"></div>
+                </a>
+            </li>
+            <li>
+                <a href="" title="微信公众号">
+                    <span class="color_fff">微信公众号</span><div class="imgWrap"><img src="images/wx.png" alt="微信公众号"></div>
+                </a>
+            </li>
+        </ul>
+        <div class="goTop">
+            <img src="images/angleTop.png" alt="迅傲科技-向顶峰前进">
+            <p class="font16 color_fff">TOP</p>
+        </div>
+    </aside>
+    <div id="mask" style="width: 100%;height: 100%;background-color: rgba(0,0,0,.5);position: fixed;top:0;left:0;display: none;z-index: 100;"></div>
+    <script src="js/jquery.1.9.1.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/type.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--banner宽度-->
+    <script type="text/javascript">
+        // function bannerWidth() {
+        //     var width = $("body").width();
+        //     if(width<=1024){
+        //         $(".banner").css("height",width/16*9);
+        //     }else{
+        //         $(".banner").css("height","100%");
+        //     }
+        // }
+        // $(function () {
+        //     bannerWidth();
+        // });
+        // $(window).resize(function(){
+        //     bannerWidth();
+        // });
+    </script>
+    <!--侧滑--搜索-->
+    <script type="text/javascript">
+        $(function () {
+            $(".btn_phoneMenu").click(function () {
+                var scrollTop = $(window).scrollTop();
+                $("header").css("top",scrollTop);
+                $(".phoneMenu").css("top",scrollTop);
+                $("body").addClass("swipe");
+                $("nav.phoneMenu").css("display","block");
+                $("#mask").css("display","block");
+            }) ;
+            $("#mask").click(function () {
+                $("header").css("top",0);
+                $(".phoneMenu").css("top",0);
+                $("body").removeClass("swipe");
+                $("nav.btn_phoneMenu").css("display","none");
+                $("#mask").css("display","none");
+            }) ;
+        });
+    </script>
+    <!--header-->
+    <script type="text/javascript">
+        // $(function () {
+        //     $(window).scroll(function () {
+        //         var scrollTop = $(window).scrollTop();
+        //         if(scrollTop>0){
+        //             $("header").css("background-color","rgba(0,0,0,0.5)");
+        //         }else{
+        //             $("header").css("background-color","rgba(0,0,0,0)");
+        //         }
+        //     });
+        // })
+        $(function () {
+           $('.menu-caret').mouseenter(function(e){
+               $(this).children('.dropDown').css("display", 'block');
+           }) 
+
+           $('.menu-caret').mouseleave(function(){
+               $(this).children('.dropDown').css('display', 'none');
+           })
+        })
+    </script>
+    <!--aside-->
+    <script type="text/javascript">
+        $(function () {
+            if($(window).scrollTop() == 0){
+                $(window).scroll(function () {
+                    $("aside").animate({
+                        width: "68px"
+                    },500);
+                });
+            }else{
+                $("aside").css({width: "68px"});
+            }
+            $("aside").hover(function () {
+                $("aside").animate({
+                    width: "210px"
+                },500);
+            },function () {
+                $("aside").animate({
+                    width: "68px"
+                },500);
+            });
+            $(".goTop").click(function () {
+                $('body,html').animate({scrollTop:0},500);
+            });
+        })
+    </script>
+
+    <!--宽度自适应-->
+    <script type="text/javascript">
+        /*banner*/
+        function hover() {
+            var width = $(".caseList li .hover").width();
+            $(".caseList li .hover").css("height",width);
+            $(".img_box").css("height",width);
+        }
+        $(function () {
+            hover();
+        });
+        $(window).resize(function(){
+            hover();
+        });
+    </script>
+    <!--tabBtn-->
+    <script type="text/javascript">
+        $(function () {
+           $(".caseList li").hover(function () {
+                $(this).children(".hover").fadeIn(500);
+                $(this).children(".des").addClass("active")
+                $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMoreWhite.png");
+                $(this).find("img").css("position","relative");
+                $(this).children(".img_box").children("img").animate({
+                    height:"120%",
+                    width:"120%",
+                    top:"-10%",
+                    left:"-10%"
+                },300);
+           },function () {
+               $(this).children(".hover").fadeOut(500);
+               $(this).children(".des").removeClass("active")
+               $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMore.png");
+                $(this).children(".img_box").children("img").animate({
+                    height:"100%",
+                    width:"100%",
+                    top:"0%",
+                    left:"0%"
+                },300);
+           });
+        });
+    </script>
+
+    <!-- 切换 -->
+     <script type="text/javascript">
+        $(".timeLine").css("width",$(".timeLine>li").length*$(".timeLine>li").outerWidth(true));
+        var i=0;
+        var wid=$(".timeLine>li").eq(0).outerWidth(true);
+        console.log(wid);
+        console.log(i);
+        //上一个
+        $(".prev").click(function(){
+            i--;
+            if(i==-1){
+                console.log("第一页");
+                i=0;
+            }else{
+                $(".timeLine").animate({
+                    "left":-i*wid,
+                 },800);
+            }
+             
+        });
+        // 下一个
+        $(".next").click(function(){
+           i++;
+            if(i>=$(".timeLine>li").length-1){
+                console.log("最后一页");
+                i=$(".timeLine>li").length-2;
+                console.log(i);
+            }else{
+                $(".timeLine").animate({
+                    "left":-i*wid,
+                 },800);
+            }
+        })
+     </script>
+    <script type="text/javascript">
+        $(function () {
+            setInterval(function () {
+                $(".down").animate({
+                    bottom:"50px",
+                    opacity:0
+                },800,function(){
+                    setTimeout(function () {
+                        $(".down").css({
+                            bottom:"70px",
+                            opacity:1
+                        })
+                    },500)
+                })
+            },2300);
+        })
+    </script>
+</body>
+</html>

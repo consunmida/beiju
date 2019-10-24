@@ -1,0 +1,61 @@
+body{background-color: #edeeee;}
+/*header*/
+header{  background-color: #fff;
+    -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    box-shadow:0 1px 2px rgba(0,0,0,0.2);}
+header nav li a{font-size: 16px;color: #333;}
+header a.tel{color: #333;}
+header a.tel:hover{color: #333;}
+/*tab*/
+.tabWrap{width: 100%;height: 57px;overflow: auto;background-color: #fff;position: fixed;top:72px;right: 0;z-index: 98;}
+.tabWrap ul{float: right;margin-bottom: 0;padding-right: 48px;}
+.tabWrap li{float: left;line-height: 57px;margin-right: 42px;cursor: pointer;}
+.tabWrap li:last-child{margin-right: 0;}
+.tabWrap li.active{color: #ffe400;}
+.tabWrap li:hover{color: #ffe400;}
+/*案例*/
+.case{width: 100%;}
+.caseList{margin-bottom: 0;overflow: hidden;background-color: #fff;}
+.caseList li{padding: 0;font-size:0;position: relative;overflow: hidden;}
+.caseList li .img_box{width:100%;position:relative;overflow: hidden;}
+.caseList li .img_box img{width: 100%;}
+.caseList li .des{height: 80px;padding: 20px;}
+.caseList li .des h3{line-height: 18px;margin: 0 0 8px;}
+.caseList li .des p{margin:0;line-height: 16px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.caseList li .des .imgWrap{float: right;line-height: 40px;}
+.caseList li .hover{position: absolute;top:0;left:0;width: 100%;background-color: rgba(0,0,0,0.6);display: none;}
+.caseList li .hover a{display: block;width:148px;height: 48px;position: absolute;top:50%;left: 50%;margin-top: -24px;margin-left: -74px;border: 2px solid #fff;color: #fff;text-align: center;line-height: 48px;font-size: 18px;}
+.caseList li .hover a:hover{color: #fff;text-decoration: none;}
+.caseList li .des.active{background-color: #0090f7;}
+.caseList li .des.active h3{color: #fff;}
+.caseList li .des.active p{color: #fff;}
+
+.case .load{width: 123px;height: 36px;font-size: 14px;line-height: 36px;text-align: center;color: #666;background-color: #fff;border-radius: 18px;margin: 20px auto;cursor: pointer;}
+.case .load img{margin-right: 8px;}
+@media screen and (max-width: 767px) {
+    .tabWrap{height: 44px;padding: 0;top: 44px;}
+    .tabWrap ul{padding-right: 22px;}
+    .tabWrap li{float: left;line-height: 44px;margin-right: 42px;cursor: pointer;}
+    .tabWrap li:last-child{margin-right: 0;}
+    .tabWrap li.active{color: #ffe400;}
+    .tabWrap li:hover{color: #ffe400;}
+    ul.caseList li.xs-first{padding-right:10px;}
+    ul.caseList li.xs-second{padding-left:10px;}
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    ul.caseList li.lg-first{padding-right:34px;}
+    ul.caseList li.lg-second{padding:0 17px;}
+    ul.caseList li.lg-third{padding-left:34px;}
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    ul.caseList li.lg-first{padding-right:34px;}
+    ul.caseList li.lg-second{padding:0 17px;}
+    ul.caseList li.lg-third{padding-left:34px;}
+}
+@media screen and (min-width:1200px){
+    .main .caseBanner img{margin-top: -89px;}
+    ul.caseList li.lg-first{padding-right:34px;}
+    ul.caseList li.lg-second{padding:0 17px;}
+    ul.caseList li.lg-third{padding-left:34px;}
+}

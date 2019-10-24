@@ -1,0 +1,112 @@
+g:nth-child(1){
+    stroke-dasharray: 65;
+    stroke-dashoffset: 65;
+}
+g:nth-child(2){
+    stroke-dasharray: 24;
+    stroke-dashoffset: 24;
+}
+g:nth-child(3){
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+g:nth-child(4){
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+g:nth-child(5){
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+g:nth-child(6){
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+g:nth-child(7) {
+    stroke-dasharray: 120;
+    stroke-dashoffset: 120;
+}
+g:nth-child(8){
+    stroke-dasharray: 1100;
+    stroke-dashoffset: 1100;
+}
+g:nth-child(9){
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+}
+g:nth-child(10){
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+}
+g:nth-child(11){
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+}
+g:nth-child(12){
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+}
+g:nth-child(13){
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+}
+@keyframes one {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes two {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes three {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes four {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes five {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes six {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes seven {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes eight {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes nine {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes ten {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes eleven {
+    to {
+        stroke-dashoffset:0;
+    }
+}
+@keyframes twelve {
+    to {
+        stroke-dashoffset:0;
+    }
+}
