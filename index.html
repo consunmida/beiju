@@ -878,7 +878,6 @@
     <script type="text/javascript">
         $(function () {
            $(".caseList li").hover(function () {
-                $(this).children(".hover").fadeIn(500);
                 $(this).children(".des").addClass("active")
                 $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMoreWhite.png");
                 $(this).find("img").css("position","relative");
@@ -889,7 +888,6 @@
                     left:"-10%"
                 },300);
            },function () {
-               $(this).children(".hover").fadeOut(500);
                $(this).children(".des").removeClass("active")
                $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMore.png");
                 $(this).children(".img_box").children("img").animate({
