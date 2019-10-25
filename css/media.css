@@ -47,6 +47,10 @@
         width: 0;
         height: 0;
     }
+
+    .case-container {
+        width: 750px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:991px) {
     .main{width: 100%;margin: 0 auto;padding: 0 10px;}
@@ -68,6 +72,10 @@
         width: 0;
         height: 0;
     }
+
+    .case-container {
+        width:970px;
+    }
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
     .main{width: 100%;margin: 0 auto;padding: 0 10px;}
@@ -85,6 +93,10 @@
         width: 0;
         height: 0;
     }
+
+    .case-container {
+        width: 1170px;
+    }
 }
 @media screen and (min-width:1200px){
 
@@ -93,5 +105,9 @@
     .sprite-clear {
         clear: initial;
         display: none;
+    }
+
+    .case-container {
+        width: 1170px;
     }
 }
