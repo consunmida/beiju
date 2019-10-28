@@ -171,20 +171,6 @@
 .join .job li p.email a{color: #333;text-decoration: underline;}
 .join .job li span{position: absolute;top:21px;right:21px;display: block;width: 47px;height: 24px;border: 1px solid #dedede;font-size:14px;color: #999;line-height: 24px;text-align: center;}
 /*分公司*/
-.branchOffice{width: 100%;height:261px;background-color: #fff;padding: 0 0 50px;}
-.branchOffice ul{width: 100%;height: 189px;margin-bottom: 72px;}
-.branchOffice ul li{height: 189px;font-size:0;position: relative;}
-.branchOffice ul li div{background-color: #fff;padding-top: 41px;height: 189px;border-radius: 4px;border: 1px solid #eee;}
-.branchOffice ul li:nth-child(1){padding:0 18px 0 0;}
-.branchOffice ul li:nth-child(2){padding:0 9px;}
-.branchOffice ul li:nth-child(3){padding:0 0 0 18px;}
-.branchOffice ul li:nth-child(1) img{position: absolute;bottom: 109px;right: 38px;}
-.branchOffice ul li:nth-child(2) img{position: absolute;bottom: 112px;right: 29px;}
-.branchOffice ul li:nth-child(3) img{position: absolute;bottom: 113px;right: 20px;}
-.branchOffice ul li h3{height: 38px;line-height: 38px;font-size: 18px;margin:0 0 15px 30px;font-weight: bold;   }
-.branchOffice ul li p{line-height: 24px;margin-bottom: 0;position: relative;z-index: 9;margin-left: 30px;}
-.branchOffice ul li p a{color: #333;}
-.branchOffice ul li p a:hover{text-decoration: none;}
 @media screen and (max-width: 767px) {
     .tabList li{width:33.333333%;margin-right:0;text-align: center;}
     .tabList div{}

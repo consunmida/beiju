@@ -518,21 +518,6 @@
 .companyList li:nth-child(5n+3){padding:0 23px;}
 .companyList li:nth-child(5n+4){padding:0 11.5px 0 34.5px;}
 .companyList li:nth-child(5n+5){padding:0 0 0 46px;}
-/*分公司*/
-.branchOffice{width: 100%;height:261px;background-color: #f6f6f6;}
-.branchOffice ul{width: 100%;height: 189px;margin-bottom: 72px;}
-.branchOffice ul li{height: 189px;font-size:0;position: relative;}
-.branchOffice ul li div{background-color: #fff;padding-top: 41px;height: 189px;border-radius: 4px;}
-.branchOffice ul li:nth-child(1){padding:0 18px 0 0;}
-.branchOffice ul li:nth-child(2){padding:0 9px;}
-.branchOffice ul li:nth-child(3){padding:0 0 0 18px;}
-.branchOffice ul li:nth-child(1) img{position: absolute;bottom: 109px;right: 38px;}
-.branchOffice ul li:nth-child(2) img{position: absolute;bottom: 112px;right: 29px;}
-.branchOffice ul li:nth-child(3) img{position: absolute;bottom: 113px;right: 20px;}
-.branchOffice ul li h3{height: 38px;line-height: 38px;font-size: 18px;margin:0 0 15px 30px;font-weight: bold;   }
-.branchOffice ul li p{line-height: 24px;margin-bottom: 0;position: relative;z-index: 9;margin-left: 30px;}
-.branchOffice ul li p a{color: #333;}
-.branchOffice ul li p a:hover{text-decoration: none;}
 /*aside*/
 aside{width: 210px;border-radius: 5px;background-color: #232323;position: fixed;top:50%;right:0;overflow: hidden;margin-top: -148px;}
 aside ul{margin-bottom: 0;overflow: hidden;}

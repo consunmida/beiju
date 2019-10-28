@@ -33,7 +33,6 @@
     .companyList li:nth-child(1n+1){padding:0 10px 0 0;}
     .companyList li:nth-child(3n+2){padding:0 5px;}
     .companyList li:nth-child(3n+3){padding:0 0 0 10px;}
-    .branchOffice ul li:nth-child(1){padding:0;}
     footer p{padding:0 10px;}
     footer p.xunchuan1{font-size: 15px;line-height: 17px;margin-top: 25px;}
     .mHidden{display: none;}
