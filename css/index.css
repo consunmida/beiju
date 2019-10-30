@@ -472,10 +472,25 @@
 	border:1px solid #00B7EE;
 }
 .caseList{overflow: hidden;margin: 34px auto 0 auto;}
+.caseList .case-wrap {
+    position: relative;
+}
 .caseList li{font-size:0; max-width: 390px;margin-bottom: 30px;}
 .caseList li .img_box{width:100%;position:relative;overflow: hidden;}
-.caseList li .img_box img{width: 100%;}
-.caseList li .des{height: 80px;padding: 20px;}
+.caseList li .img_box img{width: 100%; 
+    transition: all 1s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s; /* Firefox 4 */
+    -o-transition: all 0.8s; /* Opera */
+    position: relative;
+}
+.caseList li:hover .img_box img {
+    transform: scale(1.2,1.2);
+    -ms-transform:scale(1.2,1.2);
+    -webkit-transform:scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+.caseList li .des{height: 80px;padding: 20px;position: absolute; bottom: 0;left: 0;color: #fff;background: rgba(0,0,0,0.4);width: 100%;}
 .caseList li .des h3{line-height: 18px;margin: 0 0 8px;}
 .caseList li .des p{margin:0;line-height: 16px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .caseList li .des .imgWrap{float: right;line-height: 40px;}
