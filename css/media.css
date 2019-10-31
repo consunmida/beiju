@@ -73,7 +73,7 @@
     }
 
     .case-container {
-        width:970px;
+        width:100%;
     }
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -94,7 +94,7 @@
     }
 
     .case-container {
-        width: 1170px;
+        width: 992px;
     }
 }
 @media screen and (min-width:1200px){
@@ -107,6 +107,6 @@
     }
 
     .case-container {
-        width: 1170px;
+        width: 1080px;
     }
 }

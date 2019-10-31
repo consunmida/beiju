@@ -57,7 +57,7 @@ ol,ul,li{list-style: none;}
 html,body{width: 100%;height: 100%;transition: transform .5s ease}
 .swipe{transform: translate(-130px,0px) scale(1) translateZ(0px);margin-right: -130px;overflow: hidden;}
 /*,title*/
-.title{padding: 30px 0;}
+.title{padding: 60px 0 40px;}
 .title h2{font-size: 36px;line-height:36px;margin: 0 0 13px;text-align: center;}
 .title p{line-height:16px;text-align: center;margin-bottom: 0;}
 .title p img{margin: 0 13px;}
@@ -85,6 +85,9 @@ header nav li:hover{
 }
 header nav li.active {background: rgba(5,75,147,0.7);}
 header nav li a:hover{color:#fff;text-decoration: none;}
+header nav li > a {
+    display: block;
+}
 header nav li .dropDown {
     background: rgba(5,75,147,0.9);
     position: absolute;
@@ -167,7 +170,7 @@ nav.phoneMenu .menu_link li a{display: block;width:100%;height:100%;color: #fff;
 nav.phoneMenu .menu_link li.active{background-color: #3d3d3d;border-top: 1px solid #545454;border-bottom: 1px solid #545454;}
 /*footer*/
 footer{width: 100%;background-color: #323232;height: 160px;text-align: center;}
-footer .links{height: 80px;padding: 16px 0 16px;border-bottom: 1px solid #444;width: 640px;margin: 0 auto;background: url(../images/xun-ao.png) no-repeat;background-position: 0 50%;}
+footer .links{height: 80px;padding: 16px 0 16px;border-bottom: 1px solid #444;width: 640px;margin: 0 auto;background: url(../images/xun-ao-footer.png) no-repeat;background-position: 60px 50%;}
 footer .links p{margin-bottom: 8px;color: #fff;text-align: center;}
 footer .links>a{color: #fff;text-align: center;display: block;}
 footer .links>a:hover{text-decoration: none;}
