@@ -15,8 +15,14 @@
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/media.css"/>
     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <style>
+        .wow {
+            visibility: hidden;
+        }
+    </style>
 </head>
-<body>
+<body id="main">
 <!--header-->
     <header>
         <h1 class="h1"><a href="index.html" title="上海迅傲信息科技股份有限公司"><img src="images/xun-ao.png" alt="上海迅傲信息科技股份有限公司"/></a></h1>
@@ -90,19 +96,18 @@
                 <div class="banner" style="background:url('images/banner4.jpg') top center no-repeat;background-size: cover;"></div>
             </div>
         </div>
-        <!-- 如果需要分页器 -->
         <div class="swiper-pagination"></div>
     </div>
     <!-- 服务简介 -->
     <div class="ai-eachcont con-wite" id="service_id" nav_index="1">
         <section class="business active">
             <div class="box">
-                <div class="title txa_c">
+                <div class="title txa_c wow fadeInDown">
                     <h2 class="title-big">我们做什么？</h2>
                     <h3 class="title-small">助力企业互联网+战略转型。<br class="br-3">让产品的设计研发和互联网技术完美结合，<br class="br-4">创造极具特色、有价值的用户体验产品。</h3>
                 </div>
                 <ul class="items list-inline service-ul">
-                    <li class="app">
+                    <li class="app wow bounceInLeft">
                         <u class="cl"></u>
                         <u class="cr"></u>
                         <i>
@@ -110,7 +115,7 @@
                         <strong>移动APP/应用软件开发</strong>
                         <p>基于 iOS / Android 应用开发
                             <br>布局移动互联网</p></li>
-                    <li class="sys">
+                    <li class="sys wow rollIn">
                         <u class="cl"></u>
                         <u class="cr"></u>
                         <i>
@@ -118,7 +123,7 @@
                         <strong>微信公众号/小程序开发</strong>
                         <p>微信生态 全新体验
                             <br>轻松迈向小程序时代</p></li>
-                    <li class="pc">
+                    <li class="pc wow zoomIn">
                         <u class="cl"></u>
                         <u class="cr"></u>
                         <i>
@@ -127,7 +132,7 @@
                         <p>高端定制网站系统
                             <br>助力企业战略转型成功</p></li>
                     <div class="case-sprit-line sprite-clear">&nbsp;</div>
-                    <li class="mobi">
+                    <li class="mobi wow flipInX">
                         <u class="cl"></u>
                         <u class="cr"></u>
                         <i>
@@ -135,7 +140,7 @@
                         <strong>智能硬件/物联网开发</strong>
                         <p>物联网应用开发 / 软硬件产品研发
                             <br>掌控智能终端时代</p></li>
-                    <li class="host">
+                    <li class="host wow bounceInRight">
                         <u class="cl"></u>
                         <u class="cr"></u>
                         <i>
@@ -147,11 +152,11 @@
                 <!-- <label></label> -->
             </div>
         </section>
-        <div class="con_rank_title reflow_cont">
+        <div class="con_rank_title reflow_cont wow slideInRight">
             <h3 style="color:#333;">优秀的项目是这样出来的</h3>
             <h5>优化产品流程，增强产品的易用性，提高使用者的工作效率，科学地组织生产。</h5>
         </div>
-        <div class="flow-case-con six_row_sprit reflow_cont">
+        <div class="flow-case-con six_row_sprit reflow_cont wow slideInUp">
             <div class="sprows">
                 <div class="txa_c spricon">
                     <div class="circle-icon circle-icon-2 ci-4"></div>
@@ -237,11 +242,11 @@
     
         <!--case-->
     <div class="case" id="case_id">
-            <div class="title txa_c">
+            <div class="title txa_c wow slideInUp">
                 <h2 class="title-big">成功案例</h2>
                 <h3 class="title-small">倡导人文科技的理念，理解设计和技术的本质，为客户创造更好的产业未来</h3>
             </div>
-            <ul class="c_nav clearfix">
+            <ul class="c_nav clearfix wow slideInUp">
                 <li class="nav_btn li_a" index="1"><a href="javascript:;" class="nav_active">移动APP/智能应用开发</a></li>
                 <li class="nav_btn" index="2"><a href="javascript:;" class="nav_active">功能性系统/网站开发</a></li>
                 <li class="nav_btn" index="3"><a href="javascript:;" class="nav_active">微信公众号/小程序开发</a></li>
@@ -252,7 +257,7 @@
                 <li class="nav_btn"><a href="javascript:;" class="nav_active">网站开发</a></li>
                 <li class="nav_btn"><a href="javascript:;" class="nav_active">HTML5开发</a></li> -->
             </ul>
-            <ul class="caseList case-container" id="caseList1">
+            <ul class="caseList case-container wow slideInUp" id="caseList1">
                 <li class="case-li col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <div class="case-wrap">
                         <div class="img_box">
@@ -544,7 +549,7 @@
                         </div>
                     </li>
             </ul>
-            <ul class="caseList case-container" id="caseList4" style="display: none;">
+            <ul class="caseList case-container wow slideInUp" id="caseList4" style="display: none;">
                     <li class="case-li col-lg-4 col-md-4 col-sm-6 col-xs-6">
                         <div class="case-wrap">
                             <div class="img_box">
@@ -640,12 +645,12 @@
         </div>
     <!--company-->
     <div class="company">
-        <div class="main">
+        <div class="main  wow slideInUp">
             <div class="title txa_c">
                 <h2 class="title-big">合作伙伴</h2>
                 <p class="title-small"><img class="mHidden" src="images/line.png" alt=""/>10大行业解决方案，帮您轻松迈入新时代<img class="mHidden" src="images/line.png" alt=""/></p>
             </div>
-            <ul class="companyList">
+            <ul class="companyList  wow slideInUp">
                 <li><div><img src="images/company1.png" alt="上海东方传媒集团有限公司"/></div></li>
                 <li><div><img src="images/company2.png" alt="中国电信"/></div></li>
                 <li><div><img src="images/company3.png" alt="万科"/></div></li>
@@ -666,7 +671,7 @@
     </div>
     <!--footer-->
     <footer>
-        <div class="main">
+        <div class="main wow slideInUp">
             <div class="links">
                 <p>联系地址：松江区漕河泾开发区</p>
                 <a href="tel:400-775-3259">咨询热线：400-775-3259</a>
@@ -712,6 +717,7 @@
     <script src="js/jQueryRotate.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="./js/wow.js"></script>
     <!--侧滑--搜索-->
     <script type="text/javascript">
         $(function () {
@@ -802,6 +808,11 @@
       },
       speed:1000
     })        
-    </script>
+</script>
+<script>
+    var wow=new WOW({boxClass:'wow',animateClass:'animated',offset:150,mobile:true,live:true});
+    wow.init();
+</script>
+
 </body>
 </html>
