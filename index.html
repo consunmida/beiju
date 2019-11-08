@@ -20,6 +20,10 @@
         .wow {
             visibility: hidden;
         }
+
+        .ani {
+            margin-top: 100px;
+        }
     </style>
 </head>
 <body id="main">
@@ -84,16 +88,24 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide" >
-                <div class="banner" style="background:url('images/banner.jpg') top center no-repeat;background-size: cover;"></div>
+                <div class="banner" style="background:url('images/banner.jpg') top center no-repeat;background-size: cover;">
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s">内容</p>
+                </div>
             </div>
             <div class="swiper-slide" >
-                <div class="banner" style="background:url('images/banner1.jpg') top center no-repeat;background-size: cover;"></div>
+                <div class="banner" style="background:url('images/banner1.jpg') top center no-repeat;background-size: cover;">
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s">内容22222</p>
+                </div>
             </div>
             <div class="swiper-slide" >
-                <div class="banner" style="background:url('images/banner3.jpg') top center no-repeat;background-size: cover;"></div>
+                <div class="banner" style="background:url('images/banner3.jpg') top center no-repeat;background-size: cover;">
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s">内容33333</p>
+                </div>
             </div>
             <div class="swiper-slide">
-                <div class="banner" style="background:url('images/banner4.jpg') top center no-repeat;background-size: cover;"></div>
+                <div class="banner" style="background:url('images/banner4.jpg') top center no-repeat;background-size: cover;">
+                    <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s">内容4444</p>
+                </div>
             </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -717,6 +729,7 @@
     <script src="js/jQueryRotate.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.3.min.js"></script>
     <script src="./js/wow.js"></script>
     <!--侧滑--搜索-->
     <script type="text/javascript">
@@ -806,8 +819,17 @@
       pagination: {
         el: '.swiper-pagination',
       },
-      speed:1000
-    })        
+      speed:1000,
+      on: {
+        init: function(){
+        swiperAnimateCache(this);
+        swiperAnimate(this);
+      },
+        slideChangeTransitionEnd: function(){
+          swiperAnimate(this)
+        },
+        }
+     })        
 </script>
 <script>
     var wow=new WOW({boxClass:'wow',animateClass:'animated',offset:150,mobile:true,live:true});
