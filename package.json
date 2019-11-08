@@ -1,0 +1,27 @@
+{
+  "name": "beiju",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ngx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consunmida/beiju.git"
+  },
+  "keywords": [
+    "beiju"
+  ],
+  "author": "guxm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/consunmida/beiju/issues"
+  },
+  "homepage": "https://github.com/consunmida/beiju#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

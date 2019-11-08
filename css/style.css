@@ -54,7 +54,7 @@ ol,ul,li{list-style: none;}
 	height: 0;
 }
 /*body*/
-html,body{width: 100%;height: 100%;transition: transform .5s ease}
+html,body{width: 100%;height: 100%;transition: transform .5s ease;}
 .swipe{transform: translate(-130px,0px) scale(1) translateZ(0px);margin-right: -130px;overflow: hidden;}
 /*,title*/
 .title{padding: 60px 0 40px;}
