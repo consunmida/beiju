@@ -6,22 +6,15 @@ ol,ul,li{list-style: none;}
 
 @font-face {
 	font-family: 'hev';
-	src:url('../images/font/hev.eot');
-	src:url('../images/font/hev.eot') format('embedded-opentype'),
-		url('../images/font/hev.svg') format('svg'),
-		url('../images/font/hev.woff') format('woff'),
-		url('../images/font/hev.ttf') format('truetype');
+	src:url('../images/font/hev.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'font-icons';
-	src:url('../images/font/font-icons.eot');
-	src:url('../images/font/font-icons.eot') format('embedded-opentype'),
-		url('../images/font/font-icons.svg') format('svg'),
-		url('../images/font/font-icons.woff') format('woff'),
-		url('../images/font/font-icons.ttf') format('truetype');
+	src:
+		url('../images/font/font-icons.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
