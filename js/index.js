@@ -64,7 +64,7 @@ import '../css/index.css';
             });
         })
 
-        $(function () {
+        /*$(function () {
             var nav_btn = $('.nav_btn');
             nav_btn.click(function(e) {
                 e.preventDefault();
@@ -76,7 +76,7 @@ import '../css/index.css';
                 $('.caseList').css({'display': 'none'});
                 $('#caseList' + _index).css({'display': 'block'});
             })
-        })
+        })*/
 
 
       $(function() {
