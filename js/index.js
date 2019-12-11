@@ -58,10 +58,28 @@ import '../css/index.css';
                 $("aside").animate({
                     width: "68px"
                 },500);
+                $('div.weChat').fadeOut('fast');
             });
             $(".goTop").click(function () {
                 $('body,html').animate({scrollTop:0},500);
             });
+            $("aside li").hover(function() {
+              var index = $(this).index();
+              if(index == 3) {
+                $('div.weChat').fadeIn('fast');
+              } else {
+                $('div.weChat').fadeOut('fast');
+              }
+              $("aside li").removeClass('active');
+              $(this).addClass('active');
+              $("aside div.imgWrap").removeClass('active');
+              $(this).find('div.imgWrap').addClass('active')
+            }, function() {
+              $(this).removeClass('active');
+              $("aside div.imgWrap").removeClass('active');
+              $(this).find('span').removeClass('active');
+
+            })
         })
 
         /*$(function () {

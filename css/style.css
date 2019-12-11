@@ -148,7 +148,7 @@ header nav li .dropDown .center .dropDown-menu h4 {
 header nav li .dropDown .dropDown-menu .menuLink {
     margin-top: -5px;
 }
-header a.tel{float: right;height: 32px;border-radius: 17px;line-height:32px;padding: 0 14px;margin:0 30px 0 0;}
+header a.tel{float: right;height: 32px;border-radius: 17px;line-height:32px;padding: 0 14px;margin:0 64px 0 0;}
 header a.tel:hover{color: #fff;text-decoration: none;}
 header a.tel img{margin-right:6px;}
 header a.video{float: right;margin:5px 48px 5px 20px;height: 22px;;}
@@ -163,7 +163,7 @@ nav.phoneMenu .menu_link li a{display: block;width:100%;height:100%;color: #fff;
 nav.phoneMenu .menu_link li.active{background-color: #3d3d3d;border-top: 1px solid #545454;border-bottom: 1px solid #545454;}
 /*footer*/
 footer{width: 100%;background-color: #323232;height: 160px;text-align: center;}
-footer .links{height: 80px;padding: 16px 0 16px;border-bottom: 1px solid #444;width: 640px;margin: 0 auto;background: url(../images/bju.png) no-repeat;background-position: 60px 50%;}
+footer .links{height: 80px;padding: 16px 0 16px;border-bottom: 1px solid #444;width: 640px;margin: 0 auto;background: url(../images/bju1.png) no-repeat;background-position: 60px 50%;}
 footer .links p{margin-bottom: 8px;color: #fff;text-align: center;}
 footer .links>a{color: #fff;text-align: center;display: block;}
 footer .links>a:hover{text-decoration: none;}
