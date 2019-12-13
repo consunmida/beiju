@@ -444,7 +444,7 @@
 .case .switch .list:hover{background: url("../images/iconListW.png") center no-repeat #0084ff;}
 /*company*/
 .company{width: 100%;}
-.companyList{margin-bottom: 0;overflow: hidden;padding-bottom: 75px;}
+.companyList{margin-bottom: 0;overflow: hidden;}
 .companyList li{width: 20%;height:102px;float:left;font-size: 0;text-align: center;line-height: 102px;margin-bottom: 33px;}
 .companyList li img{width:79%;}
 .companyList li div{background-color: #fff;border-radius: 3px;
@@ -524,3 +524,238 @@ aside div.weChat p {
 .ani {
     margin-top: 100px;
 }
+
+
+/*联系我们*/
+.contact {
+    padding-top: 59px;
+}
+
+#contact_out_right{
+    padding-top: 59px;
+}
+.contact .two-third {
+    width: 61.26%;
+    float: left;
+}
+.contact .white {
+    background-color: #fff;
+}
+#contact_out {
+    padding-left: 0;
+}
+
+.contact .two-third .content-block {
+    padding: 50px 80px;
+}
+#contact_row {
+    max-width: 900px;
+    margin: 0;
+    padding-left: 10%;
+}
+.contact h3{
+    font-weight: 300;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    padding-top: 0.273em;
+    line-height: 1.15538em;
+    padding-bottom: 0.273em;
+}
+.contact .pt20 {
+    padding-top: 20px;
+}
+.contact h5 {
+    padding-bottom: 10px;
+    font-size: 1.125rem;
+}
+.contact hr .grey {
+    background: #e0e0e0;
+}
+
+.contact hr .thin {
+    display: block;
+    height: 1px;
+    width: 100%;
+    border: 0px;
+}
+.contact hr {
+    clear: both;
+    margin: 16px 0 18px;
+}
+
+.contact .row {
+    width: 100%;
+    /*max-width: 980px;*/
+    min-width: 320px;
+    /*margin: 0 auto;*/
+    /*padding-left: 20px;*/
+    padding-right: 20px;
+}
+.contact form {
+    margin: 0 0 18px;
+    width: 100%;
+}
+#contact-form ul {
+    list-style: none outside;
+}
+#contact-form ul, ol {
+    margin-bottom: 0.273em;
+}
+#contact-form li {
+    padding-bottom: 0.273em;
+}
+#contact-form ul p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 13px;
+    line-height: 1.625em;
+}
+.contact .field {
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.contact .field .input {
+    background: rgb(233,237,238);
+    border: 0px;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    height: 52px;
+    line-height: 52px;
+    position: relative;
+    padding: 0 10px;
+}
+.contact .fill-button, .submit {
+    height: 40px;
+    line-height: 40px;
+    min-width: 120px;
+    background-color: #333;
+}
+.contact .submit {
+    cursor: pointer;
+    border: 0px;
+    color: #fff;
+}
+
+.line-button, .fill-button, .submit {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    overflow: hidden;
+    font-weight: 600;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.one-third {
+    width: 33.3333%;
+    float: left;
+}
+.one-third #map {
+    margin-bottom: 0 !important;
+}
+#map {
+    overflow: hidden;
+    height: 350px;
+}
+.BMap_mask {
+    background: transparent url(http://api.map.baidu.com/images/blank.gif);
+}
+#contact_out_right #sidebar {
+    padding-top: 0 !important;
+    padding-right: 40px;
+}
+.widget {
+    margin-bottom: 40px;
+}
+#sidebar .stripe-heading {
+    padding: 20px 50px;
+    background: url(../images/stripe_s.png);
+}
+.fz_1625 {
+    font-size: 1.625rem !important;
+    font-weight: 100 !important;
+}
+#sidebar .widget-content, #sidebar .project-content {
+    /* padding-left: 50px !important; */
+    padding-top: 20px;
+}
+.col_red_1 {
+    color: #c8161e;
+}
+#contact_right {
+    color: #333;
+}
+#contact_right a {
+    color: #333 !important;
+}
+.clear {
+    clear: both;
+}
+.field input, .field input[type="*"] {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    resize: none;
+    -webkit-appearance: none;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    font-size: 1rem;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.field .textarea{
+    width: 771.9px;
+    background: rgb(233,237,238);
+    border: 0px;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    height: 85px;
+    position: relative;
+    padding: 10px 10px;
+    resize: none;
+}
+
+.content-block {
+    padding: 30px 0px;
+}
+
+.contact .row .twelve.columns {
+    width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+.block-heading {
+    font-weight: 100;
+    font-size: 2em;
+    color: #fff;
+}
+.block-heading span {
+    padding-top: 20px;
+    font-size: 1.25em;
+    display: inline-block;
+}
+.light {
+    font-weight: 300 !important;
+}
+#contact-form a:hover {background-color:#f00;text-decoration:none;color:#fff;}
