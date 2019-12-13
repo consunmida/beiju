@@ -679,7 +679,7 @@ aside div.weChat p {
     margin-bottom: 40px;
 }
 #sidebar .stripe-heading {
-    padding: 20px 50px;
+    padding-top: 20px;
     background: url(../images/stripe_s.png);
 }
 .fz_1625 {
@@ -721,7 +721,7 @@ aside div.weChat p {
 }
 
 .field .textarea{
-    width: 771.9px;
+    width: 100%;
     background: rgb(233,237,238);
     border: 0px;
     border-radius: 0%;
