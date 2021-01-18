@@ -103,7 +103,8 @@ module.exports = {
           //  },
            chunks: ['index', 'common'],
            template: 'index.html',
-           filename: 'index.html'
+           filename: 'index.html',
+           favicon:'./images/favicon.ico'
        }) ,
        new HtmlWebpack({
         hash: true,
@@ -113,7 +114,8 @@ module.exports = {
         },
         chunks: ['case', 'common'],
         template: 'case.html',
-        filename: 'case.html'
+        filename: 'case.html',
+        favicon:'./images/favicon.ico'
         }) ,
         new MiniCssExtractPlugin({
             filename: '[name].[hash].css',
