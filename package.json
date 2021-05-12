@@ -43,7 +43,7 @@
   "dependencies": {
     "bootstrap": "^4.4.0",
     "jquery": "^3.4.1",
-    "swiper": "^5.2.1",
+    "swiper": "^6.5.1",
     "swiper-animate-cn": "^1.1.1"
   }
 }
